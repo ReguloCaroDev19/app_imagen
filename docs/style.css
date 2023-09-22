@@ -1,3 +1,20 @@
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .text-above,
+  .text-below {
+      position: absolute;
+      text-align: center;
+      color: #fff; /* Color del texto */
+      font-size: 25px; /* Tamaño del texto */
+  }
+  
+  .text-above {
+      top: -100px; /* Ajusta la posición vertical del texto arriba de la flor */
+  }
+  .text-below {
+    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+}
+}
 body {
   background-color: #000;
   margin: 0;
