@@ -1,5 +1,8 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+  body {
+    margin-top: 60px;
+  }
   .text-above,
   .text-below {
       position: absolute;
@@ -23,6 +26,7 @@ body {
   display: flex;
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
   justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
+  
 }
 .flower {
   height: 150px;
