@@ -1,23 +1,4 @@
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  body {
-    margin-top: 60px;
-  }
-  .text-above,
-  .text-below {
-      position: absolute;
-      text-align: center;
-      color: #fff; /* Color del texto */
-      font-size: 25px; /* Tamaño del texto */
-  }
-  
-  .text-above {
-      top: -120px; /* Ajusta la posición vertical del texto arriba de la flor */
-  }
-  .text-below {
-    bottom: -90px; /* Ajusta la posición vertical del texto debajo de la flor */
-}
-}
 body {
   background-color: #000;
   margin: 0;
@@ -165,3 +146,31 @@ body {
   .Petal3.p4 {
     transform: rotate(157.5deg);
   }
+
+  
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  body {
+    background-color: #000;
+    margin-top: 60px;
+    padding: 0;
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en el cuerpo */
+    justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
+    
+  }
+  .text-above,
+  .text-below {
+      position: absolute;
+      text-align: center;
+      color: #fff; /* Color del texto */
+      font-size: 25px; /* Tamaño del texto */
+  }
+  
+  .text-above {
+      top: -120px; /* Ajusta la posición vertical del texto arriba de la flor */
+  }
+  .text-below {
+    bottom: -90px; /* Ajusta la posición vertical del texto debajo de la flor */
+}
+}
