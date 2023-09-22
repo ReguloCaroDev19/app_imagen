@@ -9,10 +9,10 @@
   }
   
   .text-above {
-      top: -100px; /* Ajusta la posición vertical del texto arriba de la flor */
+      top: -120px; /* Ajusta la posición vertical del texto arriba de la flor */
   }
   .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    bottom: -90px; /* Ajusta la posición vertical del texto debajo de la flor */
 }
 }
 body {
@@ -25,7 +25,7 @@ body {
   justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
 }
 .flower {
-  height: 200px;
+  height: 150px;
   width: 200px;
   margin: 20px auto;
 
@@ -49,11 +49,11 @@ body {
 }
 
 .text-above {
-    top: -100px; /* Ajusta la posición vertical del texto arriba de la flor */
+    top: -120px; /* Ajusta la posición vertical del texto arriba de la flor */
 }
 
 .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    bottom: -80px; /* Ajusta la posición vertical del texto debajo de la flor */
 }
 @keyframes pulsate {
   0% {
